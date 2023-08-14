@@ -1,53 +1,97 @@
 body {
-    background-color: purple;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  background-color: purple;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 .header {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .important-box {
-    background-color: red;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: red;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .normal-box {
-    background-color: blue;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .normal-box2 {
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .normal-box3 {
-    background-color: orange;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 10px 0;
+}
+
+.footer-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.privacycontents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
