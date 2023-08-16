@@ -7,6 +7,11 @@ body {
   color: white;
 }
 
+h3 {
+  text-align: center;
+  justify-content: center;
+}
+
 .header {
   text-align: center;
   padding: 20px;
@@ -67,12 +72,10 @@ li {
 }
 
 footer {
-  background-color: #333;
+background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: relative; /* Cambia la posizione a relativa */
-  margin-top: auto; /* Imposta il margine superiore a "auto" per distanziare il footer */
   width: 100%;
 }
 
