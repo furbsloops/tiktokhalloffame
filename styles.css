@@ -23,24 +23,28 @@ body {
   background-color: red;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box {
   background-color: blue;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box2 {
   background-color: black;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box3 {
   background-color: orange;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -67,7 +71,7 @@ body {
 }
 
 footer {
-  margin-top: 10%;
+  margin-top: 20px;
   background-color: #333;
   color: #fff;
   text-align: center;
