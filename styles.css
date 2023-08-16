@@ -61,10 +61,13 @@ body {
 
 .content {
   padding: 20px;
-  min-height: calc(100% - 170px); /* L'altezza minima per il contenuto (calcolata sottraendo l'altezza del footer) */
+  min-height: calc(
+    100% - 170px
+  ); /* L'altezza minima per il contenuto (calcolata sottraendo l'altezza del footer) */
 }
 
 footer {
+  margin-top: 10%;
   background-color: #333;
   color: #fff;
   text-align: center;
