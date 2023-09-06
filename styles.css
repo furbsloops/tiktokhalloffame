@@ -1,9 +1,23 @@
 body {
-  background-color: purple;
-  color: white;
+  position: relative;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: purple;
+  color: white;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
 }
 
 .header {
@@ -16,30 +30,35 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .important-box {
   background-color: red;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box {
   background-color: blue;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box2 {
   background-color: black;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .normal-box3 {
   background-color: orange;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -52,14 +71,11 @@ li {
   margin-bottom: 10px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .content {
   padding: 20px;
+  min-height: calc(
+    100% - 170px
+  ); /* L'altezza minima per il contenuto (calcolata sottraendo l'altezza del footer) */
 }
 
 footer {
@@ -67,8 +83,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
