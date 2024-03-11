@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App per Collezionisti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La mia Collezione</h1>
+    </header>
+    <nav>
+        <button id="btnAggiungi">Aggiungi Oggetto</button>
+        <input type="file" id="inputCamera" accept="image/*" capture="environment" style="display:none;">
+    </nav>
+    <main>
+        <div id="categorie">
+            <!-- Le categorie verranno generate dinamicamente -->
+        </div>
+        <div id="paginaCategoria" style="display:none;">
+            <h2 id="titoloCategoria"></h2>
+            <div id="elencoOggetti">
+                <!-- Gli oggetti della categoria selezionata verranno visualizzati qui -->
+            </div>
+            <button id="tornaAlleCategorie">Torna alle Categorie</button>
+        </div>
+    </main>
+    <div id="modaleFormOggetto" class="modale">
+        <form id="formOggetto">
+            <label for="nomeOggetto">Nome Oggetto:</label>
+            <input type="text" id="nomeOggetto" name="nomeOggetto" required>
+            
+            <label for="categoriaOggetto">Categoria:</label>
+            <select id="categoriaOggetto" name="categoriaOggetto">
+                <!-- Le opzioni verranno generate dinamicamente -->
+            </select>
+            
+            <input type="submit" value="Salva Oggetto">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
